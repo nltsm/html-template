@@ -1,0 +1,50 @@
+// input placeholder
+.placeholder(@rules) {
+	&::-webkit-input-placeholder {
+		@rules();
+	}
+	&:-moz-placeholder {
+		@rules();
+	}
+	&::-moz-placeholder {
+		@rules();
+	}
+	&:-ms-input-placeholder {
+		@rules();
+	}
+}
+
+/**
+	Адаптивность
+ */
+.d(@rules) {
+	@media @desktop {
+		@rules();
+	}
+}
+.t(@rules) {
+	@media @tablet {
+		@rules();
+	}
+}
+.m(@rules) {
+	@media @mobile {
+		@rules();
+	}
+}
+
+/**
+	BASE64 SVG
+ */
+.base64(@name) {
+	background-image: data-uri('image/svg+xml;charset=UTF-8', "@{img}/@{name}");
+}
+
+/**
+	Картинки
+ */
+.image(@name, @position: top left, @repeat: no-repeat) {
+	background-image: url("@{img}/@{name}");
+	background-position: @position;
+	background-repeat: @repeat;
+}

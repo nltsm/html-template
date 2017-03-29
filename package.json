@@ -1,0 +1,26 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "gulp": "latest",
+	"gulp-connect": "latest",
+	"gulp-less": "latest",
+	"gulp-concat": "latest",
+	"gulp-autoprefixer": "latest",
+	"gulp-uglify": "latest",
+	"gulp-clean-css": "latest",
+	"gulp-rename": "latest",
+    "gulp-jsmin": "latest",
+    "gulp-plumber": "latest",
+    "gulp-image-optimization": "latest",
+    "gulp.spritesmith": "latest",
+    "gulp-strip-css-comments": "latest",
+    "gulp-remove-empty-lines": "latest",
+  },
+  "author": "",
+  "license": "ISC"
+}
