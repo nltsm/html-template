@@ -19,7 +19,7 @@
     "gulp-image-optimization": "latest",
     "gulp.spritesmith": "latest",
     "gulp-strip-css-comments": "latest",
-    "gulp-remove-empty-lines": "latest",
+    "gulp-remove-empty-lines": "latest"
   },
   "author": "",
   "license": "ISC"
